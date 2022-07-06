@@ -1,0 +1,39 @@
+.win-container{
+    width : 294px;
+    background-color : #79b851;
+    padding : 2px;
+    border-radius : 5px;
+    margin-bottom : 5px;
+}
+
+.loss-container{
+    width : 294px;
+    background-color : red;
+    padding : 2px;
+    border-radius : 5px;
+    margin-bottom : 5px;
+}
+
+.win-letter {
+    color : white;
+    font-size : 18px;
+    font-weight : bold;
+    margin : 10px;
+    text-align : center;
+}
+
+.loss-letter {
+    color : white;
+    font-size : 18px;
+    font-weight : bold;
+    margin : 10px;
+    text-align : center;
+}
+
+.loss-subtitle-letter{
+    color : white;
+    font-size : 12px;
+    font-weight : bold;
+    margin : 10px;
+    text-align : center;
+}

@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+/* This is importing the React library, the useEffect and useState hooks from the React library. */
+import React, { useEffect, useState } from "react";
 
-function App() {
+/* Importing the Board component from the components folder. */
+import Board from "./components/Board";
+
+/**
+ * The App function returns a div that contains the Board component.
+ * @returns The Board component is being returned.
+ */
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    < Board />
+  )
 }
 
+/* Exporting the App component so that it can be imported into other files. */
 export default App;
